@@ -187,17 +187,17 @@ p{
     transform-origin: center center;
 }
 
-.parent-modale .modale .desc p :is(time){
-    padding: 1rem;
-}
 .parent-modale .modale button{
     position: absolute;
     top: 1.5rem;
     right: 1.5rem;
-    font-size: 2rem;
+    font-size: 1rem;
     z-index: 2;
     color: #333;
     cursor: pointer;
+}
+.parent-modale .modale button span{
+    color: rgb(0, 0, 0);
 }
 
 

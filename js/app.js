@@ -18,7 +18,7 @@ open_modal = function () {
     document.querySelector(".modale .desc h3").innerText = title;
     document.querySelector(".modale .desc p").innerHTML = `<strong>Synopsis : </strong>${desc}`;
     document.querySelector(".modale .desc time").innerText = `Date de sortie: ${dates}`;
-    document.querySelector(".modale .desc time").setAttribute("datetime", dates);
+
 };
 for (rows of el) {
     rows.addEventListener("click", open_modal);
